@@ -53,7 +53,7 @@ body {
   line-height: 1.5;
   color: #6d6d6d;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+  background-color: #F6BDE1 ;
 }
 
 a {
@@ -86,12 +86,16 @@ header h2 {
 
 #container {
   min-height: 595px;
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+  background-color: #F6BDE1;
 }
 
 .inner {
-  width: 620px;
-  margin: 0 auto;
+  width: 85%;
+  margin: 5% 5%;
+  /*margin: 2px auto;*/
+  padding: 80px 120px;
+
+  background-color: #FEEAF6;
 }
 
 #container .inner img {
@@ -100,6 +104,16 @@ header h2 {
 
 #downloads {
   margin-bottom: 40px;
+}
+.coding-icons li{
+  padding : 1px 10px;
+  list-style:  : none;
+  display : inline;
+  background-color: #F6BDE1;
+  color : rgba(255,255,255,0.5);
+  border-radius: 12px;
+  margin: 0 5px;
+  line-height: 33px;
 }
 
 a.button {
