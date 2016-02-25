@@ -278,7 +278,13 @@ form {
 h1 {
   font-size: 32px;
 }
-
+h1 a{
+  color: #fff;
+}
+h1 a:hover{
+  color : #fff;
+  text-decoration: none;
+}
 h2 {
   margin-bottom: 8px;
   font-size: 22px;
