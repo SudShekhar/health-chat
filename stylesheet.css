@@ -1,9 +1,10 @@
 body {
   padding-top: 50px;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 .starter-template {
-  padding: 40px 15px;
+  padding: 40px 17px;
+  margin : 0 0 10px 0;
   text-align: center;
 
 }
@@ -13,8 +14,8 @@ body {
 
 @media (min-width: 768px)
 .navbar-nav>li>p {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .navbar-nav>li>p {
@@ -27,7 +28,36 @@ body {
     display: block;
     padding: 10px 15px;
 }
+.coding-icons span{
+  padding : 2px 10px;
+  list-style:  : none;
+  display : inline;
+  border: 1px solid #3F84CC;
+  color : #3F84CC;
+  border-radius: 12px;
+  margin: 5px;
+  line-height: 40px;
 
+}
+
+.toc{
+  list-style-position: inside;
+  vertical-align: baseline;
+  padding-left: 20px;
+  margin : 20px;
+}
+
+.toc > li{
+  margin: 0 0 3px 0;
+
+}
+.fix-height{
+  max-height: 50px;
+  min-height: 50px;
+}
+.boxed {
+  border: 1px solid #000;
+}
 /* Sticky footer styles
       -------------------------------------------------- */
 
@@ -43,13 +73,13 @@ body {
         height: auto !important;
         height: 100%;
         /* Negative indent footer by it's height */
-        margin: 0 auto -60px;
+        margin: 0 auto -40px;
       }
 
       /* Set the fixed height of the footer here */
       #push,
       #footer {
-        height: 60px;
+        height: 40px;
       }
       #footer {
         background-color: #f5f5f5;
