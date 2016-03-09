@@ -8,6 +8,16 @@ body {
   text-align: center;
 
 }
+.ol_format {
+  margin : 5% 10%;
+}
+.ol_format > li{
+  margin: 0 0 3px 0;
+}
+
+.ol_format_bold >li{
+  font-weight: bold;
+}
 .own-header{
 	font-size:64px !important
 }
