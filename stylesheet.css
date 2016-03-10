@@ -38,15 +38,17 @@ body {
     display: block;
     padding: 10px 15px;
 }
+
 .coding-icons span{
   padding : 2px 10px;
   list-style:  : none;
-  display : inline;
+  display : inline-block;
   border: 1px solid #3F84CC;
   color : #3F84CC;
   border-radius: 12px;
   margin: 5px;
-  line-height: 40px;
+  white-space: normal;
+
 
 }
 
